@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+:root {
+    /* Dark mode - comfortable sage green (suite green) palette */
+    --bg:          #0f1410; /* deep near-black green background */
+    --bg-surface:  #1a211b; /* subtle elevated surface */
+    --bg-elevated: #232c25; /* navbar / cards */
+    --border:      #2f3a30; /* borders */
+    --text:        #e8efe9; /* primary text (off-white) */
+    --text-muted:  #9db3a1; /* muted / secondary text */
+    --green:       #86b490; /* primary brand green */
+    --green-strong:#6da379; /* stronger green (button hover) */
+    --green-dark:  #3f5c46; /* on-brand dark (buttons) */
+}
