@@ -9,7 +9,8 @@ export default function Home() {
                     <span className="text-[var(--green)]">⚡</span> React Router
                 </h1>
 
-                <nav>
+                <nav className="flex items-center gap-4">
+                    <NavLink to='/dashboard' className='cursor-pointer font-medium rounded-md px-3 py-1.5 bg-[var(--bg-elevated)] text-[var(--text)] hover:bg-[var(--green-dark)] transition-colors'>Dashboard</NavLink>
                     <NavLink to='/login' className='cursor-pointer font-medium rounded-md px-3 py-1.5 bg-[var(--bg-elevated)] text-[var(--text)] hover:bg-[var(--green-dark)] transition-colors'>Login</NavLink>
                 </nav>
             </div>
