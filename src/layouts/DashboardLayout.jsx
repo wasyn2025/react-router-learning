@@ -24,7 +24,7 @@ export default function DashboardLayout() {
     ];
 
     return (
-        <BodyContainer overwrite={true} extraClass="min-h-dvh relative bg-gray-200">
+        <BodyContainer overwrite={true} extraClass="min-h-dvh relative bg-gray-100">
             <div className="absolute bg-zinc-900 top-0 right-0 left-0 h-87.5"></div>
             <div className="py-6 px-8 relative z-1">
                 {/* dashboard navigation */}
@@ -158,8 +158,8 @@ export default function DashboardLayout() {
                             ))}
                         </tbody>
                     </table>
-                    <TablePaginationFooter total={13} current={1} perPage={13} pageCount={1} />
                 </div>
+                <TablePaginationFooter total={13} perPage={13} pageCount={6} />
             </div>
         </BodyContainer>
     );
